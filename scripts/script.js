@@ -3,10 +3,10 @@ let age = 25;
 let birthday = "June 29";
 let detroitGC = true;
 let lifeEvents = [
-  "I was born in Rochester, NY",
-  "I went to Allegheny College",
-  "I got married on December 5, 2015",
-  "I was voted most optimistic in 4th grade"
+  "I was born in Rochester, NY.",
+  "I went to Allegheny College.",
+  "I got married on December 5, 2015.",
+  "I was voted most optimistic in 4th grade."
 ];
 
 if ((detroitGC = true)) {
@@ -40,6 +40,16 @@ let counter = 0;
 
 while (true) {
   if (randomNumber !== 5) {
-    console.log(randomNumber !== 5);
+    console.log(randomNumber + "!== 5");
+    randomNumber = Math.floor(Math.random() * 9 + 1);
+    counter++;
+  } else {
+    counter++;
+    console.log(
+      "5 === 5. It took " +
+        counter +
+        " iterations to randomly generate the number 5."
+    );
+    break;
   }
 }
