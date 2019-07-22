@@ -30,3 +30,16 @@ if ((detroitGC = true)) {
       "."
   );
 }
+
+for (let i = 0; i < [lifeEvents.length]; i++) {
+  console.log(lifeEvents[i]);
+}
+
+let randomNumber = Math.floor(Math.random() * 9 + 1);
+let counter = 0;
+
+while (true) {
+  if (randomNumber !== 5) {
+    console.log(randomNumber !== 5);
+  }
+}
