@@ -1,0 +1,32 @@
+let name = "Hillary Bratten";
+let age = 25;
+let birthday = "June 29";
+let detroitGC = true;
+let lifeEvents = [
+  "I was born in Rochester, NY",
+  "I went to Allegheny College",
+  "I got married on December 5, 2015",
+  "I was voted most optimistic in 4th grade"
+];
+
+if ((detroitGC = true)) {
+  console.log(
+    "My name is " +
+      name +
+      ". I am a student at Grand Circus in Detroit, Michigan. I am currently " +
+      age +
+      " years old and my birthday is on " +
+      birthday +
+      "."
+  );
+} else {
+  console.log(
+    "My name is " +
+      name +
+      ". I am a student at Grand Circus in Grand Rapids, Michigan. I am currently " +
+      age +
+      " years old and my birthday is on " +
+      birthday +
+      "."
+  );
+}
