@@ -35,13 +35,13 @@ for (let i = 0; i < [lifeEvents.length]; i++) {
   console.log(lifeEvents[i]);
 }
 
-let randomNumber = Math.floor(Math.random() * 9 + 1);
+let randomNumber = Math.floor(Math.random() * 10 + 1);
 let counter = 0;
 
 while (true) {
   if (randomNumber !== 5) {
     console.log(randomNumber + "!== 5");
-    randomNumber = Math.floor(Math.random() * 9 + 1);
+    randomNumber = Math.floor(Math.random() * 10 + 1);
     counter++;
   } else {
     counter++;
